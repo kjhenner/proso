@@ -1,0 +1,9 @@
+#!/bin/ruby
+
+require 'optparse'
+require 'proso'
+
+options = {}
+OptionParser.new do |opts|
+  opts.banner = "Usage: prosody [options]"
+end.parse!
